@@ -5,8 +5,9 @@ import './index.css'
 import Table from "Table.jsx"
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-    <Table />
-  </StrictMode>,
+  <div>
+        <App />
+        <Table />
+  </div>
+  
 )
