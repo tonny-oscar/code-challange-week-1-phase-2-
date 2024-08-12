@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TransactionTable = ({ transactions }) => {
+const Table = ({ transactions }) => {
   return (
     <table>
         <thead>
@@ -21,4 +21,4 @@ const TransactionTable = ({ transactions }) => {
   );
 };
 
-export default TransactionTable;
+export default Table;
