@@ -9,7 +9,7 @@ function App() {
 
   // Fetch from db.json
   useEffect(() => {
-    fetch('json-server --watch db.json')
+    fetch('http://localhost:3000/transactions')
       .then((response) => response.json())
       .then((data) => setTransactions(data))
       .catch((error) => console.error('Error fetching transactions:', error));
